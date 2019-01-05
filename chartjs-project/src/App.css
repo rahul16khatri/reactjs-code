@@ -1,0 +1,123 @@
+/* header styling */
+
+header {
+  background-color: #012939;
+  height: 48px;
+}
+
+/* navigation menu styles */
+
+nav {
+  text-align: center;
+  box-shadow: 1px 5px 12px #888888;
+  height: 100%;
+  width: 82px;
+  position: absolute;
+  z-index: 1;
+  top: 130;
+  left:0;
+  background-color: #E2E8ED;
+  overflow: hidden;
+  padding-top: 0px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #818181;
+  display: block;
+}
+
+.nav-box {
+  padding: 18px;
+}
+
+/* main container styles */
+
+.main {
+  margin-left:82px;
+  padding: 0px;
+  left: 2%;
+}
+
+/* main container filter styles */
+
+.form-style {
+  padding: 10px;
+  background-color: #EBEFF2;
+  width: 100%;
+  /* height: 80px; */
+  padding-left: 30px;
+  position: relative;
+}
+
+.form-style .search {
+  background: transparent;
+  color: #677E8C;
+  border: none;
+  border-bottom: 1px solid #D3D3D3;
+  outline: none;
+  padding: 10px 0;
+  width: 350px;
+}
+
+.form-style select {
+  border-radius: 2px;
+  padding: 8px 6px;
+  font-weight: 300;
+  cursor: pointer;
+  width: 150px;
+  border: none;
+  outline: none;
+}
+
+.form-style select:focus {
+  outline: none;
+}
+
+.form-dropdown-element {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.bg-color {
+  background-color: #D8E0E5;
+}
+
+.search-container {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.fa-search {
+  position: absolute;
+  right: 0;
+  top: 25%;
+  color: #808080;
+}
+
+.form-style button {
+  border: none;
+  padding: 9px 18px;
+  outline: none;
+}
+
+.apply {
+  color: #E2E8ED;
+  background-color: #012939;
+  cursor: pointer;
+}
+
+.reset {
+  color: #012939;
+  background-color: #E2E8ED;
+  cursor: pointer;
+}
+
+.chart {
+  width: 800px;
+  height: 300px;
+  margin-left: 15%;
+  margin-top: 2%;
+}
